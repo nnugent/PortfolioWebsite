@@ -1,0 +1,67 @@
+body{
+	background-color: #34495E;
+}
+
+.col-sm-2{
+	background-color: #212F3C;
+	left: 0;
+	height: 100vmax;
+}
+.col-sm-8{
+	background-color: #34495E;
+	height: 100vmax;
+	right: 0;
+}
+
+.jumbotron{
+	background-color: #212F3C;
+	color: #D6DBDF;
+}
+
+.card{
+	background-color: #212F3C;
+	color: #D6DBDF;
+}
+
+#bottomBar{
+	bottom: 1%;
+	left: 0;
+	position: fixed;
+	right: 0;
+	color: #1b3772;
+}
+.topBar{
+	top: 0%;
+	left: 0;
+	position: fixed;
+	right: 0;
+	color: #1b3772;
+}
+#topBorder, #bottomBorder, #leftBorder, #rightBorder{
+	background: #F4D03F;
+	position: fixed;
+}
+#leftBorder, #rightBorder{
+	top: 0; 
+	bottom: 0;
+	width: 2vmin;
+}
+#leftBorder{
+	left: 0;
+}
+#rightBorder{
+	right: 0;
+}
+#bottomBorder{
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 5vmin;
+}
+#topBorder{
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 15vmin;
+}
+
